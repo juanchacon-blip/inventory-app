@@ -3,6 +3,10 @@ import ProductsView from "../views/ProductsView.vue";
 
 const routes = [
   {
+    path: "/",
+    redirect: "/products",
+  },
+  {
     path: "/products",
     name: "products",
     component: ProductsView,
